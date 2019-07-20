@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+.contanier {
+    width: 80%;
+    margin: auto;
+   
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#header {
+    background-color: red;
+    padding: 20px 0;
+}
+
+#header .logo {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+
+
+#header ul {
+    list-style: none;
+
+}
+
+
+#header ul li {
+    display: inline-block;
+    padding: 0 7px;
+    color: #fff;
+}
+
+#header ul li a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    transition: ease-in-out .5s;
+}
+
+
+#header ul li a:hover {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+#show {
+    position: relative;
+    background-image: url("../image/blog-1.jpeg");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#show .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+
+#show .title{
+    font-size:50px;
+    color: #fff; 
+    margin: 5px 0;
+
+}
+
+#show .subtitle{
+    font-size:30px;
+    color: #fff; 
+    margin: 5px 0 20px;
+    
+}
+
+
+#show .link{
+text-decoration: none;
+border: 2px solid red;
+padding: 10px 20px;
+border-radius: 10px;
+color:#fff;
+transition: ease-in-out .5s;
+}
+
+
+#show .link:hover{
+    color:#000;
+    border-radius: none;
+    background-color: red;
+    border-color:#fff;
+}
+
+
+#sidebar{
+    top:50%;
+    left: 0;
+    float: left;
+    width: 20%;
+    background-color: blue;
+    padding: 20px;
+    height: 100%;
+}
+
+#sidebar .list{
+    list-style: none;
+    margin: 10px;
+}
+
+#sidebar .list li{
+
+    display: block;
+}
+
+
+#menu{
+    position: relative;
+    background-color: purple;
+    float: right;
+    width: 79%;
+    height: 350px;
+}
+
+
+#menu p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+
+#footer{
+    margin: 20px;
+    text-align: center;
+    background-color: green;
+    padding: 40px 0;
+}
